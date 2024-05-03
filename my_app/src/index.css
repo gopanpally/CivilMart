@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Paste the rest of your CSS styles here */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px; /* Ensure some space between input and button */
+}
+
+.search-bar button {
+  padding: 8px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #4caf50;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.nav-links img {
+  margin-right: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #45a049;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-around; /* Change this to distribute space evenly */
+  align-items: center;
+  padding: 5px 20px;
+  flex-wrap: wrap; /* Allows categories to wrap on smaller screens */
+  background-color: #ddd;
+}
+
+.category {
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 2px; /* Minimal margin to keep categories closer */
+  font-size: 0.9em; /* Adjust font size for better fit */
+}
+
+.category:hover {
+  background-color: #bbb; /* Hover effect for categories */
+  color: white;
+}
